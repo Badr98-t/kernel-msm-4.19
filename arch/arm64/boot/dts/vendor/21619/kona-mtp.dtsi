@@ -1930,7 +1930,7 @@ board_temp-usr {
 		qcom,vooc_multistep_adjust_current_support;
 		qcom,vooc_multistep_initial_batt_temp = <1000>;
 		qcom,vooc_strategy_normal_current = <0x0C>;
-		qcom,vooc_batt_over_high_temp = <440>;
+		qcom,vooc_batt_over_high_temp = <450>;
 
 		qcom,vooc_strategy1_batt_high_temp0 = <400>;
 		qcom,vooc_strategy1_batt_high_temp1 = <420>;
@@ -2107,7 +2107,7 @@ board_temp-usr {
 			qcom,pd_input_current_charger_ma = <2000>;
 			qcom,qc_input_current_charger_ma = <2000>;
 
-			qcom,input_current_usb_ma = <500>;
+			qcom,input_current_usb_ma = <900>;
 
 			qcom,input_current_cdp_ma = <1500>;
 			qcom,input_current_led_ma = <1200>;
@@ -2127,7 +2127,7 @@ board_temp-usr {
 			qcom,input_current_vooc_ma_warm = <3200>;
 			qcom,vooc_temp_bat_warm_decidegc = <370>;
 			qcom,input_current_vooc_ma_high = <2200>;
-			qcom,vooc_temp_bat_hot_decidegc = <440>;
+			qcom,vooc_temp_bat_hot_decidegc = <450>;
 
 			qcom,charger_current_vooc_ma_normal = <1800>;
 
@@ -2176,8 +2176,8 @@ board_temp-usr {
 			qcom,normal_bat_decidegc = <160>;	/*16C~44C*/
 			qcom,temp_normal_fastchg_current_ma = <1100>;
 			qcom,temp_normal_vfloat_mv = <4435>;
-			qcom,pd_temp_normal_fastchg_current_ma = <2000>;
-			qcom,qc_temp_normal_fastchg_current_ma = <2000>;
+			qcom,pd_temp_normal_fastchg_current_ma = <3000>;
+			qcom,qc_temp_normal_fastchg_current_ma = <3000>;
 
 			qcom,warm_bat_decidegc = <450>;		/*45C~53C*/ /*8pin Bat Vooc project need add 3 degree C*/
 			qcom,temp_warm_vfloat_mv = <4130>;
