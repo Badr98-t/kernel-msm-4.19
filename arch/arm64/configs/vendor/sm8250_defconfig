@@ -5462,8 +5462,8 @@ CONFIG_QCOM_KGSL_IOMMU=y
 #
 # KernelSU
 #
-# CONFIG_KSU is not set
-# CONFIG_KSU_DEBUG is not set
+CONFIG_KSU=Y
+CONFIG_KSU_DEBUG=y
 
 #
 # File systems
